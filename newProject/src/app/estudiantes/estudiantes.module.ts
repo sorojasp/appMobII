@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 import { EstudiantesRoutingModule } from './estudiantes-routing.module';
 
 
+
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    EstudiantesRoutingModule
+    EstudiantesRoutingModule,
+
   ]
 })
 export class EstudiantesModule { }

@@ -6,15 +6,19 @@ import { IonicModule } from '@ionic/angular';
 
 import { MateriasPageRoutingModule } from './materias-routing.module';
 
-import { MateriasPage } from './materias.page';
+import {MateriasPage} from './materias.page';
+import {ComponentesModule} from './../../componentes/componentes.module';
+
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    MateriasPageRoutingModule
+    MateriasPageRoutingModule,
+    ComponentesModule
   ],
-  declarations: [MateriasPage]
+  declarations: [MateriasPage], 
 })
 export class MateriasPageModule {}
